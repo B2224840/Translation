@@ -18,6 +18,10 @@ zh_ko_dict = {
     "愛": "사랑"
 }
 
+
+
+
+# homepage process
 @app.route('/')
 def index():
     return render_template('index.html')
