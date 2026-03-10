@@ -1,3 +1,4 @@
+
 from flask import Flask, request, render_template
 
 app = Flask(name)
@@ -20,7 +21,7 @@ zh_ko_dict = {
 
 
 
-# homepage process
+homepage process
 @app.route('/')
 def index():
     return render_template('index.html')
